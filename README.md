@@ -72,7 +72,7 @@ yarn start
 
 Dados para acessar o dashboard:
 
-E-mail: admin@admin.com.br··
+E-mail: admin@admin.com.br  
 Senha: 123456
 
 ## Screenshots
