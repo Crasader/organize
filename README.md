@@ -42,6 +42,8 @@ Execute as migrations
 php artisan migrate
 ```
 
+Execute as seeders
+
 ```
 php artisan db:seed
 ```
@@ -70,7 +72,7 @@ yarn start
 
 Dados para acessar o dashboard:
 
-E-mail: admin@admin.com.br
+E-mail: admin@admin.com.br··
 Senha: 123456
 
 ## Screenshots
