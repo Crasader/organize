@@ -25,4 +25,11 @@ Route::namespace('API')->group(function () {
         Route::post('refresh', 'AuthController@refresh');
         Route::post('me', 'AuthController@me');
     });
+
+
+    Route::group(['middleware' => 'jwt.auth'], function () {
+
+        # TRANSACTIONS
+        Route::apiResource('transactions', 'TransactionsController');
+    });
 });
