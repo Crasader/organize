@@ -47,6 +47,42 @@ const GlobalStyle = createGlobalStyle`
     .m-auto {
         margin: 0 auto;
     }
+
+    .table {
+        background: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        font-weight: bold;
+        box-shadow: 0px 0px 8px #c1c1c1;
+
+        tr {
+            border-bottom: 1px solid #f2f2f2;
+
+            td {
+                border: none;
+            }
+        }
+
+        tfoot {
+            background: #f4f3f3;
+
+            tr > td {
+                border-top: 2px solid #cfcfcf;
+            }
+        }
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 61, 151, 0.075);
+    }
+
+    .negative-circle {
+        color: #d95a5a;
+    }
+
+    .positive-circle {
+        color: #5ad95a;
+    }
 `;
 
 export default GlobalStyle;

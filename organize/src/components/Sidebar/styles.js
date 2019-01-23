@@ -36,6 +36,18 @@ export const StyleSideBar = styled.div`
         .nav {
             margin-top: 20px;
         }
+
+        .btn-logout {
+            position: absolute;
+            margin-left: -100px;
+            left: 50%;
+            bottom: 30px;
+            width: 200px;
+            background: #663494;
+            color: #fff;
+            font-weight: 600;
+            font-size: 13px;
+        }
     }
 `;
 

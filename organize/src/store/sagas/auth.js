@@ -20,3 +20,18 @@ export function* authorize(action) {
         yield put(AuthActions.authorizeError());
     }
 }
+
+export function* logout() {
+    try {
+        yield call(api.post, '/auth/logout');
+
+        yield put(AuthActions.logoutSuccess());
+
+        yield call(history.push, '/');
+    } catch (err) {
+        yield put(
+            AlertsActions.setError('danger', 'Ops! Houve algum problema ao realizar o logout'),
+        );
+        yield put(AuthActions.logoutError());
+    }
+}

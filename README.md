@@ -78,7 +78,7 @@ Senha: 123456
 ## Screenshots
 
 ![Screenshot 1](https://image.ibb.co/h18foL/login.png)
-![Screenshot 2](https://image.ibb.co/j53Khf/dashboard.png)
+![Screenshot 2](https://i.ibb.co/Xxjh4sC/lancamentos.png)
 
 ## Construído com
 
